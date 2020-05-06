@@ -66,7 +66,7 @@ int* read_other_elements(FILE *fptr, int* dptr, int size) //this function will r
 
 
 
-int main(int argc, char* argv[]) //start of out program
+int main(int argc, char* argv[]) //start of the program. When run from the command line the user must provide command like: executable inputfile outputfile
 {
 	FILE *ifp, *ofp; //input and output file pointers
 	if(argc != 3) //if the user didn't input 3 arguments send an error
